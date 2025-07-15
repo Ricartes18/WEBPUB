@@ -1,0 +1,111 @@
+body {
+    background: #9C6644;
+    font-family: "League Spartan", sans-serif;
+    color: white;
+}
+
+main {
+    max-width: 80vw;
+    margin: auto;
+    background-color: #DDB892;
+    padding: 2rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+#title {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+    margin: auto 6rem;
+}
+
+#form {
+    flex: 1 1 300px;
+    min-width: 25vw;
+}
+
+
+fieldset {
+    width: 20vw;
+    border: none;
+    border-right: #65422D 4px solid;
+    padding-right: 5rem;
+    margin-left: 2rem;
+}
+
+input {
+    border: #000000 1px solid;
+    margin-top: .4rem;
+    margin-bottom: 1rem;
+    padding: .3rem;
+}
+
+.twice {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+label {
+    color: #000000;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.button {
+    width: 8.5625rem;
+    height: 3.125rem;  
+    border-radius: 0.625rem;
+    background: #9C6644;
+    color: #FFFFFF;
+    border-width: 0;
+    margin-top: 1rem;
+    font-family: "League Spartan", sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.button:hover {
+    background: #6b462e;
+    font-size: 1.5rem;
+    transition: .5s;
+}
+
+#result {
+    flex: 1 1 300px;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+#output img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    object-fit: contain;
+}

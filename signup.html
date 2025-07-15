@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="title">
+        <h1>SIGN-UP FORM</h1>
+    </div>
+    <main>
+        <div id="content">
+            <div id="form">
+                <form id="signup">
+                    <fieldset>
+                        <div class="twice">
+                            <!-- First Name -->
+                            <div>
+                                <label for="fname">First Name:</label><br>
+                                <input type="text" id="fname" name="fname" placeholder="First Name" required><br>
+                            </div>
+                            <!-- Last Name -->
+                            <div>
+                                <label for="lname">Last Name:</label><br>
+                                <input type="text" id="lname" name="lname" placeholder="Last Name" required><br>
+                            </div>    
+                        </div>
+                        <!-- Gender -->
+                        <label for="gender">Gender:</label><br>
+                        <input type="radio" id="male" name="gender" value="male" checked><label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female"><label for="female">Female</label><br>
+                        <div class="twice">
+                        <!-- Address -->
+                            <div>
+                                <label for="address">Home Address:</label><br>
+                                <input type="text" id="address" name="address" placeholder="Home Address" required><br>
+                            </div>
+                            <!-- Contact Number -->
+                            <div>
+                                <label for="contact">Contact Number:</label><br>
+                                <input type="tel" id="contact" name="contact" placeholder="09XXXXXXXXX" required><br>
+                            </div>
+                        </div>
+                        <!-- Email Address -->
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" id="email" name="contact" placeholder="juan@gmail.com" required><br>
+                        <!-- Date of Birth -->
+                        <label for="birthdate">Date of Birth:</label><br>
+                        <input type="date" id="birthdate" name="birthdate" required><br>
+                        
+                        <!-- Username -->
+                        <label for="username">Username:</label><br>
+                        <input type="text" id="username" name="username" placeholder="Username" required><br>
+                        <!-- Password -->
+                        <label for="password">Password:</label><br>
+                        <input type="password" id="password" name="password" placeholder="********" required><br>
+                        <!-- RESET AND SUBMIT -->
+                        <input type="reset" id="reset" name="reset" class="button">
+                        <input type="submit" value="Sign-Up" id="submit" class="button">
+                    </fieldset>
+                </form>
+            </div>
+            <div id="result">
+                <div id="output"><img src="coffee.png" alt="Coffee"></div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
